@@ -68,19 +68,7 @@ syntax on
 
 " Keybindings
 let mapleader=" "
-" alt key compatibility
-execute "set <M-u>=\eu"
-execute "set <M-i>=\ei"
-execute "set <M-y>=\ey"
-execute "set <M-o>=\eo"
-execute "set <M-j>=\ej"
-execute "set <M-k>=\ek"
-execute "set <M-h>=\eh"
-execute "set <M-l>=\el"
-execute "set <M-w>=\ew"
-execute "set <M-f>=\ef"
-execute "set <M-d>=\ed"
-execute "set <M-Tab>=\eTab"
+
 " Text Manipulation
 nnoremap <NL> i<CR><ESC>
 nmap <CR> o<ESC>
