@@ -66,6 +66,9 @@ set background=dark
 colorscheme gotham256
 syntax on
 
+" Fish
+set shell=/bin/bash 
+
 " Keybindings
 let mapleader=" "
 
