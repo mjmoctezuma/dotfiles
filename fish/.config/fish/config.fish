@@ -6,7 +6,7 @@ export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 source $HOME/.config/fish/shortcuts.fish
 source $HOME/.config/fish/colors.fish
-set -gx PATH $HOME/.local/bin $PATH
+set -gx PATH $HOME/.cargo/bin $HOME/.local/bin $PATH
 
 set -l exa_available (which exa)
 if test -n "$exa_available"
